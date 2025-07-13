@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+     <title>Catalogue</title>
+</head>
+<body>
+    <h1>Catalogue of Books</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th>Availability</th>
+                <th>Publication Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Example data, replace with dynamic content -->
+            <tr>
+                <td>The Great Gatsby</td>
+                <td>F. Scott Fitzgerald</td>
+                <td>2434372</td>
+                <td>14</td>
+                <td>1925</td>
+            </tr>
+            <tr>
+                <td>1984</td>
+                <td>George Orwell</td>
+                <td>9467393</td>
+                <td>8</td>
+                <td>1949</td>
+            </tr>
+            <tr>
+                <td>To Kill a Mockingbird</td>
+                <td>Harper Lee</td>
+                <td>89363784</td>
+                <td>5</td>
+                <td>1960</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="">
+        <h2>Add books</h2>
+        <div class="input-container">
+            <label for="book-title">Book Title:</label>
+            <input type="text" id="book-title" name="book-title" required>
+        </div>
+        <div class="input-container">
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required> </div>
+        <div class="input-container">
+            <label for="isbn">ISBN:</label> 
+            <input type="text" id="isbn" name="isbn" required>
+        </div>
+        <div class="input-container">
+            <label for="availability">Availability:</label>
+            <input type="number" id="availability" name="availability" required>
+        </div>
+        <div class="input-container">
+            <label for="publication-year">Publication Year:</label>
+            <input type="date" id="publication-year" name="publication-year" required>
+        </div>
+        <button type="submit">Add Book</button> 
+    </form>
+</body>
+</html>
