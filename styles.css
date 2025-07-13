@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 20px;
 }
-h1 {
+h1 ,h2 {
     color: #fff;
     text-align: center;
 }
@@ -36,6 +36,17 @@ li {
 a {
     color: #fff;
     text-decoration: none;
+}
+a:hover {
+    background-color: #ECD89D;
+    padding: 5px;
+    border-radius: 5px;
+}
+.report-nav{
+    background-color: #2D306B;
+    padding: 10px;
+    text-align: center;
+
 }
 input[type="text"],
 input[type="password"] {
