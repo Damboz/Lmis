@@ -59,6 +59,14 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+table, th, td {
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #15759B;
+    color: #fff;
+    padding: 10px;
+}
 tr {
     background-color: #fff;
 }
