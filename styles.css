@@ -24,6 +24,14 @@ form {
     margin-bottom: 5px;
    color: #15759B;
 }
+button {
+    background-color: #15759B;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 nav{
     background-color: #15759B;
     padding: 10px;
