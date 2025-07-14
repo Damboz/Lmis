@@ -66,3 +66,9 @@ td {
     padding: 10px;
     border: 1px solid #ddd;
 }
+.profile-header{
+    background-color: #2D306B;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
